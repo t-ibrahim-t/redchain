@@ -9,8 +9,8 @@ defmodule BlockScoutWeb.LayoutView do
 
   @default_other_networks [
     %{
-      title: "Novamars.io",
-      url: "https://novamars.io"
+      title: "NovaMarsNetwork.com",
+      url: "https://novamarsnetwork.com"
     },
     %{
       title: "Twitter",
