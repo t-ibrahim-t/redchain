@@ -30,9 +30,9 @@ indexer_empty_blocks_sanitizer_batch_size =
 config :indexer, Indexer.Fetcher.EmptyBlocksSanitizer, batch_size: indexer_empty_blocks_sanitizer_batch_size
 
 config :block_scout_web, :footer,
-  chat_link: System.get_env("FOOTER_CHAT_LINK", "https://t.me/eclipsechain"),
-  forum_link: System.get_env("FOOTER_FORUM_LINK", "https://forum.poa.network/c/Eclipse_Network"),
-  github_link: System.get_env("FOOTER_GITHUB_LINK", "https://github.com/eclipsechain"),
+  chat_link: System.get_env("FOOTER_CHAT_LINK", "https://t.me/NovaMars"),
+  forum_link: System.get_env("FOOTER_FORUM_LINK", "https://forum.poa.network/c/Nova_Network"),
+  github_link: System.get_env("FOOTER_GITHUB_LINK", "https://github.com/"),
   enable_forum_link: System.get_env("FOOTER_ENABLE_FORUM_LINK", "false") == "false"
 
 ######################

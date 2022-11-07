@@ -440,7 +440,7 @@ msgstr ""
 #: lib/block_scout_web/templates/chain/_metatags.html.eex:4
 #, elixir-autogen, elixir-format
 msgid "BlockScout provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
-msgstr "Eclipse Explorer provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
+msgstr "NOVA Explorer provides analytics data, API, and Smart Contract tools for the %{subnetwork}"
 
 #: lib/block_scout_web/templates/chain/show.html.eex:153
 #: lib/block_scout_web/templates/layout/_topnav.html.eex:29
@@ -465,7 +465,7 @@ msgstr ""
 #: lib/block_scout_web/templates/layout/_footer.html.eex:22
 #, elixir-autogen, elixir-format
 msgid "Blockscout is a tool for inspecting and analyzing EVM based blockchains. Blockchain explorer for Ethereum Networks."
-msgstr "Eclipse Explorer is a tool for inspecting and analyzing Eclipse blockchain."
+msgstr "NOVA Explorer is a tool for inspecting and analyzing NOVA blockchain."
 
 #: lib/block_scout_web/templates/block/_tile.html.eex:64
 #: lib/block_scout_web/templates/block/overview.html.eex:216
@@ -1038,32 +1038,32 @@ msgstr ""
 #: lib/block_scout_web/views/transaction_view.ex:215
 #, elixir-autogen, elixir-format
 msgid "ERC-1155 "
-msgstr "ECP-1155 "
+msgstr "NOVA-1155 "
 
 #: lib/block_scout_web/views/transaction_view.ex:213
 #, elixir-autogen, elixir-format
 msgid "ERC-20 "
-msgstr "ECP-20 "
+msgstr "NOVA-20 "
 
 #: lib/block_scout_web/templates/account/watchlist_address/form.html.eex:40
 #, elixir-autogen, elixir-format
 msgid "ERC-20 tokens (beta)"
-msgstr "ECP-20 tokens (beta)"
+msgstr "NOVA-20 tokens (beta)"
 
 #: lib/block_scout_web/views/transaction_view.ex:214
 #, elixir-autogen, elixir-format
 msgid "ERC-721 "
-msgstr "ECP-721 "
+msgstr "NOVA-721 "
 
 #: lib/block_scout_web/templates/account/watchlist_address/form.html.eex:53
 #, elixir-autogen, elixir-format
 msgid "ERC-721, ERC-1155 tokens (NFT) (beta)"
-msgstr "ECP-721, ECP-1155 tokens (NFT) (beta)"
+msgstr "NOVA-721, NOVA-1155 tokens (NFT) (beta)"
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:4
 #, elixir-autogen, elixir-format
 msgid "ETH RPC API Documentation"
-msgstr "Eclipse RPC API Documentation"
+msgstr "NOVA RPC API Documentation"
 
 #: lib/block_scout_web/templates/address_contract/index.html.eex:76
 #: lib/block_scout_web/templates/address_contract_verification_via_flattened_code/new.html.eex:26
@@ -1480,7 +1480,7 @@ msgstr ""
 #: lib/block_scout_web/templates/transaction/overview.html.eex:305
 #, elixir-autogen, elixir-format
 msgid "List of ERC-1155 tokens created in the transaction."
-msgstr "List of ECP-1155 tokens created in the transaction."
+msgstr "List of NOVA-1155 tokens created in the transaction."
 
 #: lib/block_scout_web/templates/transaction/overview.html.eex:289
 #, elixir-autogen, elixir-format
@@ -2140,7 +2140,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address_token/overview.html.eex:59
 #, elixir-autogen, elixir-format
 msgid "Shows the tokens held in the address (includes ERC-20, ERC-721 and ERC-1155)."
-msgstr "Shows the tokens held in the address (includes ECP-20, ECP-721 and ECP-1155)."
+msgstr "Shows the tokens held in the address (includes NOVA-20, NOVA-721 and NOVA-1155)."
 
 #: lib/block_scout_web/templates/address_token/overview.html.eex:66
 #, elixir-autogen, elixir-format
@@ -2461,7 +2461,7 @@ msgstr ""
 #: lib/block_scout_web/templates/api_docs/index.html.eex:6
 #, elixir-autogen, elixir-format
 msgid "This API is provided for developers transitioning their applications from Etherscan to BlockScout. It supports GET and POST requests."
-msgstr "This API is provided for developers transitioning their applications from Ecplise Explorer to Other Explorers. It supports GET and POST requests."
+msgstr "This API is provided for developers transitioning their applications from NOVAlise Explorer to Other Explorers. It supports GET and POST requests."
 
 #: lib/block_scout_web/templates/api_docs/eth_rpc.html.eex:7
 #, elixir-autogen, elixir-format
@@ -3164,7 +3164,7 @@ msgstr ""
 #: lib/block_scout_web/templates/address/overview.html.eex:150
 #, elixir-autogen, elixir-format
 msgid "doesn't include ERC20, ERC721, ERC1155 tokens)."
-msgstr "doesn't include ECP20, ECP721, ECP1155 tokens)."
+msgstr "doesn't include NOVA20, NOVA721, NOVA1155 tokens)."
 
 #: lib/block_scout_web/templates/common_components/_rap_pagination_container.html.eex:13
 #, elixir-autogen, elixir-format

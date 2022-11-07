@@ -33,10 +33,10 @@ config :block_scout_web, BlockScoutWeb.Tracer,
 config :block_scout_web, BlockScoutWeb.Gettext, locales: ~w(en), default_locale: "en"
 
 config :block_scout_web, BlockScoutWeb.SocialMedia,
-  twitter: "eclipsechainv1",
-  telegram: "eclipsechain",
-  facebook: "Eclipse_Network",
-  instagram: "Eclipse_Network"
+  twitter: "NovaMarsNetwork",
+  telegram: "NovaMars",
+  facebook: "Nova_Network",
+  instagram: "Nova_Network"
 
 config :block_scout_web, BlockScoutWeb.Chain.TransactionHistoryChartController,
   # days

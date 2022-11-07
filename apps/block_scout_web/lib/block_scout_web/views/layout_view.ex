@@ -14,7 +14,7 @@ defmodule BlockScoutWeb.LayoutView do
     },
     %{
       title: "Twitter",
-      url: "https://twitter.com/eclipsechainv1"
+      url: "https://twitter.com/NovaMarsNetwork"
     }
   ]
 
