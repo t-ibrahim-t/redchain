@@ -32,8 +32,8 @@ config :indexer, Indexer.Fetcher.EmptyBlocksSanitizer, batch_size: indexer_empty
 config :block_scout_web, :footer,
   chat_link: System.get_env("FOOTER_CHAT_LINK", "https://t.me/NovaMars"),
   forum_link: System.get_env("FOOTER_FORUM_LINK", "https://forum.poa.network/c/Nova_Network"),
-  github_link: System.get_env("FOOTER_GITHUB_LINK", "https://github.com/"),
-  enable_forum_link: System.get_env("FOOTER_ENABLE_FORUM_LINK", "false") == "false"
+  github_link: System.get_env("FOOTER_GITHUB_LINK", "https://github.com/blockscout/NovaMarsNetwork"),
+  enable_forum_link: System.get_env("FOOTER_ENABLE_FORUM_LINK", "false") == "true"
 
 ######################
 ### BlockScout Web ###
@@ -87,7 +87,7 @@ config :block_scout_web,
   webapp_url: System.get_env("WEBAPP_URL"),
   api_url: System.get_env("API_URL"),
   apps_menu: if(System.get_env("APPS_MENU", "false") == "true", do: true, else: false),
-  external_apps: System.get_env("EXTERNAL_APPS"),
+  apps: System.get_env("APPS") || System.get_env("EXTERNAL_APPS"),
   gas_price: System.get_env("GAS_PRICE", nil),
   restricted_list: System.get_env("RESTRICTED_LIST", nil),
   restricted_list_key: System.get_env("RESTRICTED_LIST_KEY", nil),
@@ -169,6 +169,8 @@ config :block_scout_web,
 config :block_scout_web, BlockScoutWeb.Chain.Address.CoinBalance,
   # days
   coin_balance_history_days: System.get_env("COIN_BALANCE_HISTORY_DAYS", "10")
+
+config :block_scout_web, BlockScoutWeb.API.V2, enabled: System.get_env("API_V2_ENABLED") == "true"
 
 ########################
 ### Ethereum JSONRPC ###
